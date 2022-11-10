@@ -1,8 +1,15 @@
 :root {
-
+--main--color: #ccc
 }
 body {
-
+    font-family: 'Roboto', sans-serif;    
+}
+a {
+    text-decoration: none;
+    font-style: normal;
+}
+li {
+    list-style-type: none;
 }
 .visually-hidden {
     position: absolute;
