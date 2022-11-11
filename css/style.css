@@ -24,3 +24,124 @@ li {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+
+ /*---header---*/
+.header {
+    position: absolute;
+        width: 1600px;
+        height: 80px;
+        left: 0px;
+        top: 0px;
+        background: #FFFFFF;
+}
+.tel {
+    position: absolute;
+        width: 152px;
+        height: 16px;
+        left: 1263px;
+        top: 32px;
+    color: #757575;
+}
+.email {
+    position: absolute;
+        width: 135px;
+        height: 16px;
+        left: 1078px;
+        top: 32px;
+        color: #757575;
+}
+.email:hover {
+    color: #2196F3;
+}
+hr {
+    position: absolute;
+    width: 1600px;
+    height: 0px;
+    left: 0px;
+    top: 80px;    
+    border: 1px solid #ECECEC;
+}
+.link {
+    font-family: 'Roboto';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 16px;
+        letter-spacing: 0.02em;
+    
+        color: #212121;
+}
+.stud:hover {
+    color: #2196F3;
+}
+.port:hover {
+    color: #2196F3;
+}
+.cont:hover {
+    color: #2196F3;
+}
+.stud {
+    position: absolute;
+        width: 45px;
+        height: 16px;
+        left: 453px;
+        top: 32px;
+}
+.port {
+    position: absolute;
+        width: 72px;
+        height: 16px;
+        left: 548px;
+        top: 32px;
+}
+.cont {
+    position: absolute;
+        width: 64px;
+        height: 16px;
+        left: 670px;
+        top: 32px;
+}
+.logo {
+    position: absolute;
+        width: 145px;
+        height: 31px;
+        left: 215px;
+        top: 24px;
+    
+        font-family: 'Raleway';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+        letter-spacing: 0.03em;
+        color: #000;
+}
+.half-logo {
+    color: #2196F3;
+}
+/*---hat---*/
+.hat {
+    position: absolute;
+        width: 1600px;
+        height: 600px;
+        left: 0px;
+        top: 80px;    
+        background: #2F303A;
+}
+.text-hat {
+    position: absolute;
+    width: 696px;
+    height: 120px;
+    left: 452px;
+    top: 280px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 60px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
