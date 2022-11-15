@@ -1,3 +1,11 @@
+:root {
+    --heads-color: #212121;
+    --second-color: #FFFFFF;
+    --link-color: #2196F3;
+    --grey-color: #757575;
+    --hero-fon-color: #2F303A;
+    --accent-color: #188CE8;
+}
 
 body {
     font-family: 'Roboto', sans-serif;
@@ -10,18 +18,18 @@ body {
 }
 /* HEADER */
 .header {
-    background: #FFFFFF;
+    background: var(--second-color)
 }
 .header-links {
     font-weight: 500;
     font-size: 14px;
     line-height: calc(16 / 14);
     letter-spacing: 0.02em;    
-    color: #212121;
+    color: var(--heads-color)
 }
 .header-links:hover, 
 .header-links:focus {
-    color: #2196F3;
+    color: var(--link-color)
 }
 .header-email, 
 .header-tel {
@@ -29,15 +37,15 @@ body {
         font-size: 14px;
         line-height: calc(16 / 14);
         letter-spacing: 0.02em;    
-        color: #757575;
+        color: var(--grey-color)
 }
 .header-email:hover,
 .header-email:focus {
-    color: #2196F3;
+    color: var(--link-color);
 }
 /* HERO */
 .hero {
-    background: #2F303A;
+    background: var(--hero-fon-color);
 }
 .hero-title { 
     font-weight: 900;
@@ -46,20 +54,22 @@ body {
         text-align: center;
         letter-spacing: 0.06em;
         text-transform: uppercase;    
-        color: #FFFFFF;
+        color: var(--second-color)
 }
 .hero-btn {
-    background: #2196F3;
+    background: var(--link-color);
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         border-radius: 4px;
 }
 .hero-btn:hover, 
 .hero-btn:focus {
-    background: #188CE8;
+    background: var(--accent-color);
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         border-radius: 4px;
 }
 .hero-text-btn {
+    font-family: 'Roboto';
+    font-style: normal;
     font-weight: 700;
         font-size: 16px;
         line-height: calc(30 / 16);
@@ -67,7 +77,7 @@ body {
         align-items: center;
         text-align: center;
         letter-spacing: 0.06em;    
-        color: #FFFFFF;
+        color: var(--second-color);
 }
 /* FEATURES */
 .visually-hidden {
@@ -87,13 +97,13 @@ body {
         line-height: calc(16 / 14);
         letter-spacing: 0.03em;
         text-transform: uppercase;    
-        color: #212121;
+        color: var(--heads-color);
 }
 .features-text {
         font-size: 14px;
         line-height: calc(24 / 14);
         letter-spacing: 0.03em;    
-        color: #757575;
+        color: var(--grey-color);
 }
 /* OURJOB */
 .ourjob-title {
@@ -101,5 +111,6 @@ body {
         line-height: calc(42 / 36);
         text-align: center;
         letter-spacing: 0.03em;    
-        color: #212121;
+        color: var(--heads-color);
 }
+/* OURTEAM */
