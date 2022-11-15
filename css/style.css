@@ -9,16 +9,20 @@
     --theme-logo: #000000;
     --footer-link-color: rgba(255, 255, 255, 0.6);
     --border-box-color: #EEEEEE;
+    --current-color: pink;
 }
-
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: var(--second-color);
 }
 .link {
     text-decoration: none;
 }
 .list {
     list-style: none;
+}
+.btn {
+    cursor: pointer;
 }
 /* HEADER */
 .header {
@@ -34,6 +38,9 @@ body {
 .header-links:hover, 
 .header-links:focus {
     color: var(--link-color)
+}
+.header-links.current {
+    color: var(--current-color);
 }
 .header-email, 
 .header-tel {
@@ -172,6 +179,14 @@ body {
         line-height: calc(24 / 14);
         letter-spacing: 0.03em;    
         color: var(--footer-link-color);
+}
+.footer-adress:hover,
+.footer-adress:focus,
+.footer-email:hover,
+.footer-email:focus,
+.footer-tel:hover,
+.footer-tel:focus {
+    color: var(--link-color)
 }
 /* PORTFOLIO-HERO */
 .portfolio-btn {
