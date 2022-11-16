@@ -9,7 +9,8 @@
     --theme-logo: #000000;
     --footer-link-color: rgba(255, 255, 255, 0.6);
     --border-box-color: #EEEEEE;
-    --current-color: pink;
+    --current-color: #2196F3;
+    --headerline-color: #ECECEC;
 }
 body {
     font-family: 'Roboto', sans-serif;
@@ -20,9 +21,6 @@ body {
 }
 .list {
     list-style: none;
-}
-.btn {
-    cursor: pointer;
 }
 /* HEADER */
 .header {
@@ -56,6 +54,9 @@ body {
 .header-tel:focus {
     color: var(--link-color);
 }
+.header-line {
+    border: 1px solid var(--headerline-color);
+}
 /* HERO */
 .hero {
     background: var(--back-color);
@@ -77,8 +78,7 @@ body {
     background: var(--accent-color);
 }
 .hero-text-btn {
-    font-family: 'Roboto';
-    font-style: normal;
+    font-family: inherit;    
     font-weight: 700;
         font-size: 16px;
         line-height: calc(30 / 16);
@@ -101,8 +101,7 @@ body {
 .features-heads {
         font-size: 14px;
         line-height: calc(16 / 14);
-        letter-spacing: 0.03em;
-        text-transform: uppercase;    
+        letter-spacing: 0.03em;   
         color: var(--heads-color);
 }
 .features-text {
@@ -196,8 +195,7 @@ body {
     background-color: var(--link-color)
 }
 .portfolio-text-btn {
-    font-family: 'Roboto';
-    font-style: normal;
+    font-family: inherit;    
     font-weight: 500;
         font-size: 16px;
         line-height: calc(26 / 16);
