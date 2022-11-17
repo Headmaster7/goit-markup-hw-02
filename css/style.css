@@ -54,9 +54,6 @@ body {
 .header-tel:focus {
     color: var(--link-color);
 }
-.header-line {
-    border: 1px solid var(--headerline-color);
-}
 /* HERO */
 .hero {
     background: var(--back-color);
